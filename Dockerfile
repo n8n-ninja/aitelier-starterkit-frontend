@@ -7,7 +7,7 @@ COPY .next ./.next
 COPY public ./public
 COPY package.json ./
 COPY node_modules ./node_modules
-COPY next.config.js ./next.config.js
+COPY next.config.ts ./next.config.ts
 
 ENV NODE_ENV=production
 EXPOSE 3000
